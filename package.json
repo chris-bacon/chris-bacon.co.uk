@@ -1,12 +1,9 @@
 {
-  "scripts": {
-    "build": "babel src/ -d lib/",
-    "prepublish": "npm run build",
-    "flow": "flow"
-  },
+  "scripts": {},
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-imagemin": "^3.1.0"
+    "gulp-imagemin": "^3.1.0",
+    "gulp-rename": "^1.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

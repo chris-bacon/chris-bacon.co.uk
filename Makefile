@@ -1,4 +1,4 @@
-.PHONY: build clean watch deploy
+.PHONY: build clean watch deploy css
 
 build:
 	stack build
@@ -12,3 +12,6 @@ watch:
 
 deploy:
 	./deploy/deploy-aws
+
+css:
+	gulp css
