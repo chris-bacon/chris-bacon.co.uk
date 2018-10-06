@@ -9,6 +9,6 @@ title: Blog
 - [React: From the Start](blog/react_from_the_start.html)
 - [Types, Minds, And Dennett on the Limits of Science](blog/types_and_minds.html)
 - [Programming Beauty](blog/programming_beauty.html)
-- [EPP: A New Synthesis](MADissertation.pdf)
-- [Adjective Order: Svenonius and the Subsective/Intersective Distinction](UGDissertation.pdf)
+- [EPP: A New Synthesis](pdfs/MADissertation.pdf)
+- [Adjective Order: Svenonius and the Subsective/Intersective Distinction](pdfs/UGDissertation.pdf)
 
