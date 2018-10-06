@@ -25,9 +25,9 @@ gulp.task('sass', function () {
   });
 
 gulp.task('css', ['sass'], function() {
-    return gulp.src('css/*.css')
+    return gulp.src('css/styles.css')
     .pipe(cssmin())
-    // .pipe(rename({ suffix: '.min'}))
+    .pipe(rename({ suffix: '.min'}))
     .pipe(gulp.dest('css/'))
 });
 
