@@ -1,4 +1,7 @@
-.PHONY: build clean watch deploy css
+.PHONY: install build clean watch deploy css
+
+install:
+	npm install
 
 build:
 	stack build

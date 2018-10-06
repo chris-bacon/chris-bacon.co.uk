@@ -6,6 +6,11 @@ html {
     background-color: #fdf6e3;
 }
 
+h1, h2, h3, h4 {
+    color: $blue;
+    border-bottom: black solid 1px;
+}
+
 .body__main {
     width: 100%;
     height: 100%;
