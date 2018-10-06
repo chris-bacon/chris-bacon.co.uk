@@ -1,4 +1,4 @@
-.PHONY: build clean watch
+.PHONY: build clean watch deploy
 
 build:
 	stack build
@@ -9,3 +9,6 @@ clean:
 
 watch:
 	stack exec site watch
+
+deploy:
+	./deploy/deploy-aws
