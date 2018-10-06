@@ -12,9 +12,8 @@ main = hakyll $ do
         route idRoute
         compile copyFileCompiler
 
-    match "css/styles.min.css" $ do
-        route   idRoute
-        compile compressCssCompiler
+    match "css/styles.min.css" $
+        route idRoute >>= \_ -> compile compressCssCompiler
 
     match (fromList ["blog.markdown"]) $ do
         route   $ setExtension "html"  -- change the file name/extension
