@@ -8,6 +8,10 @@ main = hakyll $ do
         route   idRoute -- keeps the file name/extension
         compile copyFileCompiler
 
+    match "pdfs/*" $ do
+        route idRoute
+        compile copyFileCompiler
+
     match "css/styles.min.css" $ do
         route   idRoute
         compile compressCssCompiler
