@@ -6,7 +6,7 @@ table {
   border-collapse: collapse; }
 
 th {
-  background-color: #192e8c;
+  background-color: white;
   color: white;
   padding: 8px;
   text-align: left;
@@ -28,17 +28,15 @@ tr:hover {
 .nav-bar {
   position: fixed;
   width: 100%;
-  background-color: black;
+  background-color: darkcyan;
   text-align: center;
-  color: white;
   height: 5%;
   top: 0;
-  margin-bottom: 10px;
-  padding-top: 10px;
+  padding: 16px;
   z-index: 100; }
   .nav-bar a {
     display: inline-block;
-    color: white;
+    color: cyan;
     height: 100%;
     box-sizing: border-box; }
 
@@ -60,11 +58,10 @@ tr:hover {
     font-size: 16px; } }
 
 html {
-  background-color: #fdf6e3; }
+  background-color: black; }
 
 h1, h2, h3, h4 {
-  color: #192e8c;
-  border-bottom: black solid 1px; }
+  color: white; }
 
 .body__main {
   width: 100%;
@@ -76,11 +73,11 @@ h1, h2, h3, h4 {
   overflow-x: hidden; }
 
 .body__background_color {
-  background-color: black; }
+  background-color: white; }
 
 a {
   text-decoration: none;
-  color: #192e8c;
+  color: white;
   font-size: 16px; }
 
 .code {
@@ -92,19 +89,15 @@ a {
   word-wrap: break-word;
   text-align: justify;
   padding: 0% 20%;
-  top: 5%;
+  top: 10%;
   box-sizing: border-box; }
-
-img.intro-pic {
-  border: 2.5px solid black;
-  float: top; }
 
 .article {
   position: relative;
   text-align: justify;
   margin-top: 32px;
   padding-bottom: 48px;
-  color: #3b3535; }
+  color: grey; }
 
 .home-intro {
   position: absolute;

@@ -7,8 +7,7 @@ html {
 }
 
 h1, h2, h3, h4 {
-    color: white;
-    border-bottom: black solid 1px;
+    color: $emphasisColor;
 }
 
 .body__main {
@@ -22,17 +21,17 @@ h1, h2, h3, h4 {
 }
 
 .body__background_color {
-    background-color: black;
+    background-color: $backgroundColor;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: $emphasisColor;
     font-size: $font-size-medium;
 }
 
 .code {
-    background-color: grey;
+    background-color: $textColor;
 }
 
 .main {
@@ -41,13 +40,8 @@ a {
     word-wrap: break-word;
     text-align: justify;
     padding: 0% 20%;
-    top: 5%;
+    top: 10%;
     box-sizing: border-box;
-}
-
-img.intro-pic {
-    border: 2.5px solid black;
-    float: top;
 }
 
 .article {
@@ -55,7 +49,7 @@ img.intro-pic {
     text-align: justify;
     margin-top: 32px;
     padding-bottom: 48px;
-    color: grey;
+    color: $textColor;
 }
 
 .home-intro {

@@ -9,18 +9,16 @@
 .nav-bar {
     position: fixed;
     width: 100%;
-    background-color: darkcyan;
+    background-color: $navbarBgColor;
     text-align: center;
-    color: cyan;
     height: 5%;
     top: 0;
-    margin-bottom: 10px;
-    padding: 10px;
+    padding: 16px;
     z-index: 100;
 
     a {
         display: inline-block;
-        color: white;
+        color: $navbarFgColor;
         height: 100%;
         box-sizing: border-box;
     }
