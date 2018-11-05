@@ -9,7 +9,7 @@ React tutorials have a habit of not starting at the beginning. However, the begi
 
 For a new project, let's start with a new clean directory.
 
-eact is a JavaScript library, like lodash or moment, so we will need to install it with a package manager&mdash;we will use npm. In our new directory:
+React is a JavaScript library, like lodash or moment, so we will need to install it with a package manager&mdash;we will use npm. In our new directory:
 
 <pre class="bg-moon-gray">
 echo "{}" >> package.json
